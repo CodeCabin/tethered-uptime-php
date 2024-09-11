@@ -1,0 +1,28 @@
+{
+    "name": "codecabin/tethered-uptime-php",
+    "type": "library",
+    "description": "Tethered uptime PHP module, used to send status updates and custom system metrics",
+    "keywords": ["tethered", "uptime", "monitoring", "system", "performance"],
+    "homepage": "https://github.com/CodeCabin/tethered-uptime-php",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeCabin\\TetheredUptime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Duncan",
+            "role": "Developer",
+            "homepage": "https://github.com/NickDuncanZA"
+        },
+        {
+            "name": "Dylan Auty",
+            "role": "Developer",
+            "homepage": "https://github.com/DylanCodeCabin"
+        }
+    ]
+}
